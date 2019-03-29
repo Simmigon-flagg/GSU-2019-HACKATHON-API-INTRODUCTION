@@ -39,10 +39,19 @@ Go to https://darksky.net/dev and sign up for an account like you would do any o
 To developer code I use https://code.visualstudio.com/ Feel free to use any code editor you like but it will be easier to follow alone with these Demos
 
 #### View in console 
-
+```sh
  curl -I https://jsonplaceholder.typicode.com/
-  curl -I https://jsonplaceholder.typicode.com/users
+ curl -I https://jsonplaceholder.typicode.com/users
+```
+#### Get a Single user
+```sh
+ curl https://jsonplaceholder.typicode.com/users/?id=1
+```
 
+#### Get a Single user in postman
+```console
+ https://jsonplaceholder.typicode.com/users/?id=1
+```
 # Inside index.html
 
 1. Copy
@@ -229,4 +238,8 @@ alert("User Data Did not load!");
   });
 
 }
+```
+# The Instagram API
+```html
+https://www.instagram.com/developer/
 ```
