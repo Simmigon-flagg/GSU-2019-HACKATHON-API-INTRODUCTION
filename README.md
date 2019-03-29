@@ -45,6 +45,7 @@ To developer code I use https://code.visualstudio.com/ Feel free to use any code
 # Inside index.html
 
 1. Copy
+```html
     <!--Import Google Icon Font-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"
     />
@@ -59,13 +60,15 @@ To developer code I use https://code.visualstudio.com/ Feel free to use any code
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" type="text/css" href="main.css" />
 
-
+```
 1.  Copy
 	//import my-api.js into the project
+```html
     <script type="text/javascript" src=“my-api.js"></script>
-
+```
 1.  Copy
 	// The main users Profile
+```html
         <div class="w3-card w3-round w3-white">
           <div class="w3-container">
            <h4 id=username class="w3-center" >My Profile</h4>
@@ -78,9 +81,10 @@ To developer code I use https://code.visualstudio.com/ Feel free to use any code
            <p><i class="fa fa-birthday-cake fa-fw w3-margin-right w3-text-theme"></i><span id="userbirthday" ></span></p>
           </div>
         </div>
-
+```
 1.  Copy
 	//The post from friends
+```html
         <div class="w3-container w3-card w3-white w3-round w3-margin"><br>
           <div id="photo1"></div>
 
@@ -118,8 +122,9 @@ To developer code I use https://code.visualstudio.com/ Feel free to use any code
           <button type="button" class="w3-button w3-theme-d1 w3-margin-bottom"><i class="fa fa-thumbs-up"></i>  Like</button> 
           <button type="button" class="w3-button w3-theme-d2 w3-margin-bottom"><i class="fa fa-comment"></i>  Comment</button> 
         </div> 
-
+```
 1. Copy
+```html
         <div class="w3-card w3-round w3-white w3-center">
             <div class="w3-container">
               <p>Weather Dark Sky</p>
@@ -130,7 +135,7 @@ To developer code I use https://code.visualstudio.com/ Feel free to use any code
               <p><button class="w3-button w3-block w3-theme-l4">Info</button></p>
             </div>
           </div>
-
+```
 
 # Inside my-api.js
 
@@ -170,34 +175,31 @@ $.ajax({
 ```
 
 ```javascript 
-1.$(“#userlocation").html(data.results[0].location.city.toUpperCase() + ", " +data.results[0].location.state.toUpperCase());
+$(“#userlocation").html(data.results[0].location.city.toUpperCase() + ", " +data.results[0].location.state.toUpperCase());
 ```
 
-```javascript 
-1 $("#userbirthday").html(data.results[0].dob.date.split("T")[0]); 
+```javascript
+$("#userbirthday").html(data.results[0].dob.date.split("T")[0]); 
 ```
 
-```javascript 
-1 $("#username").text(data.results[0].name.first.toUpperCase() + " " + data.results[0].name.last.toUpperCase());  
+```javascript
+$("#username").text(data.results[0].name.first.toUpperCase() + " " + data.results[0].name.last.toUpperCase());  
 ```
 
-```javascript 
-1 $("#photo").html('<p class="w3-center"><img src="'+data.results[0].picture.large+'" class="w3-circle" style="height:106px;width:106px" alt="Avatar"></p>'); 
+```javascript
+$("#photo").html('<p class="w3-center"><img src="'+data.results[0].picture.large+'" class="w3-circle" style="height:106px;width:106px" alt="Avatar"></p>'); 
 ```
 
-```javascript 
-1 alert("User Data Did not load!");
-
+```javascript
+alert("User Data Did not load!");
 ```
 
-1.
 ```javascript 
     var lo = data.results[0].location.coordinates.longitude;
     var la = data.results[0].location.coordinates.latitude;
     getWeather(lo,la);
 ```
 
-1.
 ```javascript 
 //function getWeather(long, lat){
 
