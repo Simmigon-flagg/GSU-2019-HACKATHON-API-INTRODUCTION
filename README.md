@@ -40,7 +40,8 @@ To developer code I use https://code.visualstudio.com/ Feel free to use any code
 
 #### View in console 
 
- https://jsonplaceholder.typicode.com/
+ curl -I https://jsonplaceholder.typicode.com/
+  curl -I https://jsonplaceholder.typicode.com/users
 
 # Inside index.html
 
@@ -62,19 +63,20 @@ To developer code I use https://code.visualstudio.com/ Feel free to use any code
 
 ```
 1.  Copy
-	//import my-api.js into the project
+	
 ```html
+    //import my-api.js into the project
     <script type="text/javascript" src=“my-api.js"></script>
 ```
 1.  Copy
-	// The main users Profile
+	
 ```html
+	// The main users Profile
         <div class="w3-card w3-round w3-white">
           <div class="w3-container">
            <h4 id=username class="w3-center" >My Profile</h4>
            <div id="photo"></div>
-
-
+		  
            <hr>
            <p><i class="fa fa-pencil fa-fw w3-margin-right w3-text-theme"></i> Designer, UI</p>
            <p><i class="fa fa-home fa-fw w3-margin-right w3-text-theme"></i><span id="userlocation" ></span></p>
@@ -83,8 +85,9 @@ To developer code I use https://code.visualstudio.com/ Feel free to use any code
         </div>
 ```
 1.  Copy
-	//The post from friends
+	
 ```html
+	//The post from friends
         <div class="w3-container w3-card w3-white w3-round w3-margin"><br>
           <div id="photo1"></div>
 
@@ -161,6 +164,7 @@ $.ajax({
 });
 ```
 1.copy
+
 ```javascript 
     //User to get son data
     alert(JSON.stringify(data));
@@ -175,7 +179,7 @@ $.ajax({
 ```
 
 ```javascript 
-$(“#userlocation").html(data.results[0].location.city.toUpperCase() + ", " +data.results[0].location.state.toUpperCase());
+$(“#userlocation").html(data.results[0].location.city.toUpperCase() + ", " + data.results[0].location.state.toUpperCase());
 ```
 
 ```javascript
