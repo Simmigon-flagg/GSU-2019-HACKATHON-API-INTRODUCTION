@@ -240,6 +240,6 @@ alert("User Data Did not load!");
 }
 ```
 # The Instagram API
-```html
+```console
 https://www.instagram.com/developer/
 ```
