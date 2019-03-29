@@ -268,10 +268,4 @@ https://www.instagram.com/developer/
 
 <img width="1410" alt="Screenshot at Mar 22 13-07-26 png" src="https://user-images.githubusercontent.com/8258629/55265297-1a14ac80-524e-11e9-8b35-7710bb70e796.png">
 
-
-
-
-
-
-
-
+<img width="1410" alt="Screenshot at Mar 22 13-07-26 png" src="https://user-images.githubusercontent.com/8258629/55265492-f4d46e00-524e-11e9-9f57-cf9cc4ae1a66.png">
