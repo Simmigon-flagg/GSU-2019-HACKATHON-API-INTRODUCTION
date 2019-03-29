@@ -239,7 +239,7 @@ alert("User Data Did not load!");
 
 }
 ```
-# The Instagram API
+# The Instagram API access token
 ```console
 https://www.instagram.com/developer/
 ```
