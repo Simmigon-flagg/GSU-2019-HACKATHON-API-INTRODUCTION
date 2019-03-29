@@ -179,7 +179,7 @@ $.ajax({
 ```
 
 ```javascript 
-$(“#userlocation").html(data.results[0].location.city.toUpperCase() + ", " + data.results[0].location.state.toUpperCase());
+$("#userlocation").html(data.results[0].location.city.toUpperCase() + ", " + data.results[0].location.state.toUpperCase());
 ```
 
 ```javascript
