@@ -243,3 +243,35 @@ alert("User Data Did not load!");
 ```console
 https://www.instagram.com/developer/
 ```
+
+<img width="1410" alt="Screenshot at Mar 22 12-33-42 png" src="https://user-images.githubusercontent.com/8258629/55265217-c7d38b80-524d-11e9-93c7-72faf139ed50.png">
+
+<img width="1410" alt="Screenshot at Mar 22 12-34-16 png" src="https://user-images.githubusercontent.com/8258629/55265226-d1f58a00-524d-11e9-9fd0-bcf7a470fcaf.png">
+
+<img width="1410" alt="Screenshot at Mar 22 12-32-52 png" src="https://user-images.githubusercontent.com/8258629/55265250-e6d21d80-524d-11e9-88ef-0e6aac1dabb9.png">
+
+<img width="1410" alt="Screenshot at Mar 22 12-37-14 png" src="https://user-images.githubusercontent.com/8258629/55265254-ed609500-524d-11e9-8ca1-262694234cf5.png">
+
+<img width="1410" alt="Screenshot at Mar 22 12-40-25 png" src="https://user-images.githubusercontent.com/8258629/55265256-f0f41c00-524d-11e9-83ca-cf115e2cffa6.png">
+
+<img width="1410" alt="Screenshot at Mar 22 12-57-32 png" src="https://user-images.githubusercontent.com/8258629/55265262-f5b8d000-524d-11e9-89e2-98fd9623429f.png">
+
+<img width="1410" alt="Screenshot at Mar 22 13-00-05 png" src="https://user-images.githubusercontent.com/8258629/55265265-fbaeb100-524d-11e9-8634-2a3ef728e171.png">
+
+<img width="1410" alt="Screenshot at Mar 22 13-07-26 png" src="https://user-images.githubusercontent.com/8258629/55265273-049f8280-524e-11e9-9e93-6270f35e5229.png">
+
+<img width="1410" alt="Screenshot at Mar 22 12-35-51 png" src="https://user-images.githubusercontent.com/8258629/55265279-08cba000-524e-11e9-92fe-b317a4356789.png">
+
+<img width="1410" alt="copyclient_id png" src="https://user-images.githubusercontent.com/8258629/55265286-0ec18100-524e-11e9-9df5-ee2073d479e7.png">
+
+<img width="1410" alt="Screenshot at Mar 22 13-06-14 png" src="https://user-images.githubusercontent.com/8258629/55265294-15e88f00-524e-11e9-9644-0ff234f32068.png">
+
+<img width="1410" alt="Screenshot at Mar 22 13-07-26 png" src="https://user-images.githubusercontent.com/8258629/55265297-1a14ac80-524e-11e9-8b35-7710bb70e796.png">
+
+
+
+
+
+
+
+
