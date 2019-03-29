@@ -136,7 +136,8 @@ To developer code I use https://code.visualstudio.com/ Feel free to use any code
 
 
 1. Copy
- Var my_URL;
+```javascript 
+var my_URL;
 $.ajax({
   url: my_URL,
   dataType: 'json',
@@ -153,8 +154,9 @@ $.ajax({
 // Paste 7
 }
 });
-
+```
 1.copy
+```javascript 
     //User to get son data
     alert(JSON.stringify(data));
     alert(Object.keys(data));
@@ -165,19 +167,38 @@ $.ajax({
 	console.log(data[n]);
 }
 */
+```
 
+```javascript 
 1.$(“#userlocation").html(data.results[0].location.city.toUpperCase() + ", " +data.results[0].location.state.toUpperCase());
+```
+
+```javascript 
 1 $("#userbirthday").html(data.results[0].dob.date.split("T")[0]); 
+```
+
+```javascript 
 1 $("#username").text(data.results[0].name.first.toUpperCase() + " " + data.results[0].name.last.toUpperCase());  
+```
+
+```javascript 
 1 $("#photo").html('<p class="w3-center"><img src="'+data.results[0].picture.large+'" class="w3-circle" style="height:106px;width:106px" alt="Avatar"></p>'); 
+```
+
+```javascript 
 1 alert("User Data Did not load!");
 
+```
+
 1.
+```javascript 
     var lo = data.results[0].location.coordinates.longitude;
     var la = data.results[0].location.coordinates.latitude;
     getWeather(lo,la);
+```
 
 1.
+```javascript 
 //function getWeather(long, lat){
 
   var myURL = "https://api.darksky.net/forecast/85dcf97c6c19448d76fb2ee8a80fd322/"+long+"," + lat;
@@ -202,3 +223,4 @@ $.ajax({
   });
 
 }
+```
