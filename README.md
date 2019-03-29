@@ -42,7 +42,9 @@ To developer code I use https://code.visualstudio.com/ Feel free to use any code
 
  https://jsonplaceholder.typicode.com/
 
-1 . Copy
+# Inside index.html
+
+1. Copy
     <!--Import Google Icon Font-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"
     />
@@ -117,7 +119,7 @@ To developer code I use https://code.visualstudio.com/ Feel free to use any code
           <button type="button" class="w3-button w3-theme-d2 w3-margin-bottom"><i class="fa fa-comment"></i>  Comment</button> 
         </div> 
 
-1.  Copy
+1. Copy
         <div class="w3-card w3-round w3-white w3-center">
             <div class="w3-container">
               <p>Weather Dark Sky</p>
@@ -130,9 +132,10 @@ To developer code I use https://code.visualstudio.com/ Feel free to use any code
           </div>
 
 
-Inside of 
+# Inside my-api.js
 
-1.  Copy
+
+1. Copy
  Var my_URL;
 $.ajax({
   url: my_URL,
