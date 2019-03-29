@@ -166,7 +166,7 @@ $.ajax({
 1.copy
 
 ```javascript 
-    //User to get son data
+    //Used to get JSON data
     alert(JSON.stringify(data));
     alert(Object.keys(data));
     alert(Object.values(data));
