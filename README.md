@@ -1,9 +1,9 @@
 # GSU-2019-HACKATHON-API-INTRODUCTION
 
-Mac Users open 
+##### Mac Users open 
 Terminal 
 
-PC Users open
+##### PC Users open
 Commandline
 
 Type or copy paste  curl -I http://www.google.com to view the header.
@@ -12,7 +12,7 @@ Type or copy paste  curl  http://www.google.com to view the data return.
 
 For some of these Demo you will need a GitHub account.
 
-Github API
+##### Github API
 
 Go to https://github.com/  and sign up for an account like you would do any other sign up.
 
@@ -24,21 +24,21 @@ Type or copy paste  curl  https://api.github.com/users/{user} to view the data r
 
 To learn more about the GitHub api copy or paste https://developer.github.com/v3/ into an URL search bar.
 
-POSTMAN
+##### POSTMAN
 
 A User Interface for Testing API. https://www.getpostman.com/downloads/
 
-Dark Sky API
+##### Dark Sky API
 
 Go to https://darksky.net/dev and sign up for an account like you would do any other sign up.
 
-Dark Sky and POSTMAN
+##### Dark Sky and POSTMAN
 
-Webpages, APIs and Browser Developer tool
+##### Webpages, APIs and Browser Developer tool
 
 To developer code I use https://code.visualstudio.com/ Feel free to use any code editor you like but it will be easier to follow alone with these Demos
 
-View in console 
+#### View in console 
 
  https://jsonplaceholder.typicode.com/
 
@@ -151,7 +151,7 @@ $.ajax({
 }
 });
 
-2.copy
+1.copy
     //User to get son data
     alert(JSON.stringify(data));
     alert(Object.keys(data));
@@ -163,18 +163,18 @@ $.ajax({
 }
 */
 
-3.$(“#userlocation").html(data.results[0].location.city.toUpperCase() + ", " +data.results[0].location.state.toUpperCase());
-4 $("#userbirthday").html(data.results[0].dob.date.split("T")[0]); 
-5 $("#username").text(data.results[0].name.first.toUpperCase() + " " + data.results[0].name.last.toUpperCase());  
-6 $("#photo").html('<p class="w3-center"><img src="'+data.results[0].picture.large+'" class="w3-circle" style="height:106px;width:106px" alt="Avatar"></p>'); 
-7 alert("User Data Did not load!");
+1.$(“#userlocation").html(data.results[0].location.city.toUpperCase() + ", " +data.results[0].location.state.toUpperCase());
+1 $("#userbirthday").html(data.results[0].dob.date.split("T")[0]); 
+1 $("#username").text(data.results[0].name.first.toUpperCase() + " " + data.results[0].name.last.toUpperCase());  
+1 $("#photo").html('<p class="w3-center"><img src="'+data.results[0].picture.large+'" class="w3-circle" style="height:106px;width:106px" alt="Avatar"></p>'); 
+1 alert("User Data Did not load!");
 
-8.
+1.
     var lo = data.results[0].location.coordinates.longitude;
     var la = data.results[0].location.coordinates.latitude;
     getWeather(lo,la);
 
-9.
+1.
 //function getWeather(long, lat){
 
   var myURL = "https://api.darksky.net/forecast/85dcf97c6c19448d76fb2ee8a80fd322/"+long+"," + lat;
@@ -199,12 +199,3 @@ $.ajax({
   });
 
 }
-
-
-
-
-
-
-
-
-
