@@ -4,7 +4,7 @@
 Terminal 
 
 ##### PC Users open
-Commandline
+Command Line
 
 Type or copy paste  curl -I http://www.google.com to view the header.
 
