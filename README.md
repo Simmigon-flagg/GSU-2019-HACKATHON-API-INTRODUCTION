@@ -10,19 +10,19 @@ Type or copy paste  curl -I http://www.google.com to view the header.
 
 Type or copy paste  curl  http://www.google.com to view the data return.
 
-For some of these Demo you will need a GitHub account.
+For some of these Demos, you will need a GitHub account.
 
 ##### Github API
 
 Go to https://github.com/  and sign up for an account like you would do any other sign up.
 
-To Follow me on GitHub click here  https://github.com/simmigon-flagg and I’ll follow you back. You can see all of my publish repos and what I post in the future.
+To Follow me on GitHub, click here  https://github.com/simmigon-flagg and I’ll follow you back. You can see all of my publish repos and what I post in the future.
 
 Type or copy paste  curl -I  https://api.github.com/ to view the data return.
 
 Type or copy paste  curl  https://api.github.com/users/{user} to view the data return.
 
-To learn more about the GitHub api copy or paste https://developer.github.com/v3/ into an URL search bar.
+To learn more about the GitHub API, copy or paste https://developer.github.com/v3/ into an URL search bar.
 
 ##### POSTMAN
 
@@ -36,7 +36,7 @@ Go to https://darksky.net/dev and sign up for an account like you would do any o
 
 ##### Webpages, APIs and Browser Developer tool
 
-To developer code I use https://code.visualstudio.com/ Feel free to use any code editor you like but it will be easier to follow alone with these Demos
+The IDE I used: https://code.visualstudio.com/. Feel free to use any code editor you like but it will be easier to follow alone with these Demos
 
 #### View in console 
 ```sh
@@ -48,7 +48,7 @@ To developer code I use https://code.visualstudio.com/ Feel free to use any code
  curl https://jsonplaceholder.typicode.com/users/?id=1
 ```
 
-#### Get a Single user in postman
+#### Get a Single user in Postman
 ```console
  https://jsonplaceholder.typicode.com/users/?id=1
 ```
